@@ -9,7 +9,7 @@ answers = {
     "пятница": "Расписание на пятницу:\nАлгебра\nФізика\nІнформатика\nІнформатика\nФізична культура\nЗарубіжна література\nЗарубіжна література",
 }
 
-bot = telebot.TeleBot("8187665329:AAHirlrLBq7_nKokd_YNG9aSe7TrxkoD584")	
+bot = telebot.TeleBot("YouTelegramBotToken")	
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
